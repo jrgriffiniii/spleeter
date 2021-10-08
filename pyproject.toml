@@ -82,5 +82,5 @@ multi_line_output = 3
 addopts = "-W ignore::FutureWarning -W ignore::DeprecationWarning -vv --forked"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["setuptools", "poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
