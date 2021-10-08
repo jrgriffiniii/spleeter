@@ -17,14 +17,14 @@ __email__ = "spleeter@deezer.com"
 __author__ = "Deezer Research"
 __license__ = "MIT License"
 
-import audio
-import dataset
-import model
-import options
-import resources
-import separator
-import types
-import utils
+import .audio
+import .dataset
+import .model
+import .options
+import .resources
+import .separator
+import .types
+import .utils
 
 class SpleeterError(Exception):
     """ Custom exception for Spleeter related error. """
